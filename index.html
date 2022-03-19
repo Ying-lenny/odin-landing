@@ -4,54 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="index.css">
     <title>Landing Page</title>
     
 </head>
 <body>
     <div class="flex-container">
-        <div class="navbar">
-            <a>Header Logo</a>
-            <a>Header Link one</a>
-            <a>Header Link two</a>
-            <a>Header Link three</a>
+        <div class="bx navbar">
+            <div class="logo">
+                <a>Header Logo</a>
+            </div>
+
+            <div class="nav-links">
+                <a>Header Link one</a>
+                <a>Header Link two</a>
+                <a>Header Link three</a>
+            </div>
         </div>
 
-        <div class="section1">
-            <h1>This website is awesome</h1>
-            <p>Below the header text here lies some subtext in a smaller size and a different colour</p>
-            <button>Sign up</button> 
-            <a href="" alt="Image Placeholder text"></a>
+        <div class="bx intro">
+            <div class="introContent">
+                <h1>This website is awesome</h1>
+                <p>Below the header text here lies some subtext in a smaller size and a different colour</p>
+                <button>Sign up</button>
+            </div>
+
+            <div class="introImg">
+                <img src="./images/intro.jpg" alt="Image Placeholder text"></a>
+            </div>
         </div>
 
-        <div class="section2">
-            <h2>Some Random Info</h2>
-            <img src="./images/blue.jpg" alt="Image">
-            <p>This is some subtext below an blue image</p>
+        <div class="bx Gallery">
+            <h1>Some Random Info</h2>
 
-            <img src="./images/green.jpg" alt="Image">
-            <p>This is some subtext below an green image</p>
+            <div class="galleryContent">
+                <div>
+                    <img src="./images/blue.jpg" alt="Image">
+                    <p>This is some subtext below an blue image on the website</p>
+                </div>
 
-            <img src="./images/red.jpg" alt="Image">
-            <p>This is some subtext below an red image</p>
+                <div>
+                    <img src="./images/green.jpg" alt="Image">
+                    <p>This is some subtext below an green image</p>
+                </div>
 
-            <img src="./images/yellow.jpg" alt="Image">
-            <p>This is some subtext below an yellow image</p>
+                <div>
+                    <img src="./images/red.jpg" alt="Image">
+                    <p>This is some subtext below an red image</p>
+                </div>
+
+                <div>
+                    <img src="./images/yellow.jpg" alt="Image">
+                    <p>This is some subtext below an yellow image</p>
+                </div>
+            </div>
         </div>
 
-        <div class="section3">
-            <p>Odin wants me to put a quote here for the sake of filling up space and looking cool.
+        <div class="bx quote">
+            <q>
+                Odin wants me to put a quote here for the sake of filling up space and looking cool.
                 And who am I to decide against their wishes
-            </p>
+            </q>
         </div>
 
-        <div class="section4">
+        <div class="bx sign-up">
             <h3>Call to action! It's time!</h3>
             <p>Sign up to our product by clicking that broken ass button over there!</p>
             <button>Sign up</button>
         </div>
         
-        <div class="footer">
+        <div class="bx footer">
             Copyright @ YingLenny 2022
         </div>
     </div>
