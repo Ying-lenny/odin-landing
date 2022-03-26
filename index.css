@@ -64,6 +64,7 @@ button {
   background-color: #3882f6;
   color: #F9FAF8;
   padding: 10px;
+  border-color: #F9FAF8;
 }
 
 .intro img {
@@ -104,7 +105,51 @@ button {
 /* Quote Section */
 
 .quote {
+  background-color: #e5e7eb;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  flex-direction: column;
+}
 
+.quote p {
+  font-family: 'Roboto', arial;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  width: 55%;
+  font-style: italic;
+}
+
+.quote b {
+  font-family: 'Roboto', arial;
+  font-size: 20px;
+  width: 55%;
+  text-align: right;
+}
+
+/* Sign up section */
+.sign-up {
+  background-color: #3882f6;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #F9FAF8;
+  padding: 20px;
+  margin: 30px 350px;
+  border-radius: 8px;
+  justify-content: space-around;
+  text-align: left;
 }
 
 /* Footer Section */
+
+.footer {
+  background-color: #1f2937;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #F9FAF8;
+  padding: 30px;
+}
